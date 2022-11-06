@@ -28,3 +28,17 @@ hub_events:
                 - determine passively cancelled
                 - teleport <player> hub_spawn
 #Hub World was created by ASlightlyOvergrownCactus / Overgrown_Cactus
+
+command_return:
+    type: command
+    name: return
+    description: Go back to spawn in the hub world.
+    usage: /return
+    permission: dscript.command.return
+    aliases:
+        - hub
+        - spawn
+    script:
+        - teleport <player> hub_spawn
+        - narrate "Warped to hub!" to:<player>
+        - playsound <player> sound:ENTITY_ENDERMAN_TELEPORT volume:1 pitch:1
