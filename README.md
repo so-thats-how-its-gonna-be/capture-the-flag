@@ -1,3 +1,3 @@
 # Capture The Flag
 
-ill write this shit later im not in the mood
+ill write this crap later im not in the mood
